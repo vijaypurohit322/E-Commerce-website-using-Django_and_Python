@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'u#owrf2&=a3o_902+kuows^26+$)07rwbma!j^878s)z&yc^!y'
+SECRET_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -84,11 +84,11 @@ DATABASES = {
         # postgresql db connection config
         # # start region
         # 'ENGINE': 'django.db.backends.postgresql',
-        # 'NAME': 'vawzxkmqj',
-        # 'USER': 'vawzxkmqj',
-        # 'PASSWORD': 'jGrboQtCgtcqBFuanypq_bsRVYdaboA7dvij',
-        # 'HOST': 'topsy.db.elephantsql.com',
-        # 'PORT': '5432'
+        # 'NAME': 'your_user_name',
+        # 'USER': 'your_user_name',
+        # 'PASSWORD': 'your_password',
+        # 'HOST': 'your host like : - db.elephantsql.com',
+        # 'PORT': 'xxxx'
         # End region
 
 
@@ -146,5 +146,5 @@ MEDIA_ROOT = os.path.join(BASE_DIR,'static','media')
 
 ### Stripe setting ###
 
-STRIPE_PUBLISHABLE_KEY = 'pk_test_51GzJSILqmiWvAVcqNnbbswC60cN5CMoYXq0hBK61gqrRGoUoNgbIKieO8tF9842sJBkNaz8UqQHsEilGswRM2HxQ00kftOMQAj'
-STRIPE_SECRET_KEY = 'sk_test_51GzJSILqmiWvAVcq1Rpjh0hDxAD0FwdoyvsYJySfNHsiA4jNkod2jRIlOOcZluWVCZMZnlkhkj2EoCqsGIJPe9d8002pUKGMN9'
+STRIPE_PUBLISHABLE_KEY = 'Your key'
+STRIPE_SECRET_KEY = 'your key'
