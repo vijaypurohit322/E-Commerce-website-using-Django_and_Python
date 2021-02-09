@@ -4,3 +4,6 @@ Hello All, In this project I've created a basic E-commerce website, to understan
 ----------
 
 For regular updates [Follow me](https://github.com/vijaypurohit322).
+
+----------
+
